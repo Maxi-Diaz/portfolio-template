@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&display=swap');
 
 :root {
-  --primary-color: #3282B8;
-  --primary-color-dark: #0F4C75;
-  --accent-color: #FFF8F0;
+  --primary-color: #2d3494;
+  --primary-color-dark: #0f4475;
+  --accent-color: #f1f0ff;
 }
 
 html {
@@ -74,7 +74,7 @@ body {
 }
 
 .half-section {
-  width: 50%;
+  width: 100%;
 }
 
 .avatar-container {
@@ -87,7 +87,7 @@ body {
 }
 
 .avatar-container img {
-  height: 700px;
+  height: 650px;
   width: auto;
 }
 
@@ -150,9 +150,65 @@ h1 {
   font-style: italic;
 }
 
+/**** Mi habilidad ****/
+.skills .span3 {
+	width:235px;
+	overflow: hidden;
+}
+
+.expand-bg {
+	background: none repeat scroll 0 0 #EAEDF2;
+	border-radius:16px;
+	height: 16px;
+	margin-bottom: 15px;
+	position: relative;
+	padding: 0 2px;
+}
+.expand {
+	border-radius: 10px;
+	height: 4px;
+	margin: 2px 0;
+	padding: 4px 0 4px 5px;
+	position: absolute;
+}
+.skills .span5 h3 {
+	font-size: 18.5px;
+	line-height: 15px;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+.skills .span5 h3 span {
+	float:right;
+}
+
+.ps2 {
+	width:75%;
+	background:#30a5dc;
+}
+.ai2 {
+	width:80%;
+	background:#ee742b;
+}
+.html2 {
+	width:75%;
+	background:#f04949;
+}
+.html {
+	width:85%;
+	background:#39d084;
+}
+.css {
+	width:90%;
+	background:#9526d4;
+}
+.node {
+	width:65%;
+	background:#e6a822;
+}
+
 aside {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 form {

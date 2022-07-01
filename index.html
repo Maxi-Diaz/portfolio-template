@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <title>Mi Portfolio</title>
 </head>
@@ -14,10 +14,13 @@
       <a href="#" class="logo">Mi Portfolio</a>
       <ul class="menu">
         <li class="menu-item">
-          <a href="#home">Inicio</a>
+          <a href="#home"> <i class="icon-user"></i> Inicio</a>
         </li>
         <li class="menu-item">
           <a href="#about">Sobre mí</a>
+        </li>
+        <li class="menu-item">
+          <a href="#skills">Habilidad</a>
         </li>
         <li class="menu-item">
           <a href="#projects">Experiencia</a>
@@ -32,19 +35,18 @@
   <section id="home" class="content">
     <div class="half-section">
      <div class="avatar-container">
-      <img src="./assets/avatar.png" alt="">
+      <img src="./assets/logo.png" alt="">
       <h3>"Yo, disfrutando de mi café..."</h3>
      </div>
     </div>
     <div class="half-section text-section">
       <div class="introduction">
-        <h1 class="title">Hola!, <br> Soy Nombre y Apellido </h1>
+        <h1 class="title">Hola!, <br> Soy Mariano Maximiliano Diaz </h1>
         <ul class="socials">
-          <li><a class="socials-icon" href=""><i class="bi bi-github"></i></a></li>
-          <li><a class="socials-icon" href=""><i class="bi bi-linkedin"></i></a></li>
-          <li><a class="socials-icon" href=""><i class="bi bi-twitter"></i></a></li>
-          <li><a class="socials-icon" href=""><i class="bi bi-facebook"></i></a></li>
-          <li><a class="socials-icon" href=""><i class="bi bi-instagram"></i></a></li>
+          <li><a class="socials-icon" href="https://github.com/Maxi-Diaz" target="_blank"><i class="bi bi-github"></i></a></li>
+          <li><a class="socials-icon" href="https://www.linkedin.com/in/mariano-maximiliano-diaz-514b16167" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+          <li><a class="socials-icon" href="https://www.facebook.com/XDMaxiDiaz92" target="_blank"><i class="bi bi-facebook"></i></a></li>
+          <li><a class="socials-icon" href="https://www.instagram.com/maxi_mdiaz?r=nametag" target="_blank"><i class="bi bi-instagram"></i></a></li>
         </ul>
   
         <p class="description">+15 años de experiencia trabajando en aplicaciones de alta escala. <br> Déjame contarte un poco de mí, sigue deslizando!</p>
@@ -72,11 +74,52 @@
       <h2>Un poco sobre mí</h2>
     </aside>
   </section>
-
-  <section id="projects" class="content">
+  <section id="skills" class="content">
     <aside class="half-section title-section">
-      <h2>Experiencia en el campo</h2>
+      <h2>Mi Habilidad</h2>
     </aside>
+    <aside class="half-section text-section">
+      <div class="container skills">
+        <div class="row">
+          <div class="span5">
+            <h3>C# <span>75%</span></h3>
+            <div class="expand-bg"> <span class="expand ps2"> &nbsp; </span> </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span5">
+            <h3>Java <span>80%</span></h3>
+            <div class="expand-bg"> <span class="expand ai2"> &nbsp; </span> </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span5">
+            <h3>JavaScript <span>75%</span></h3>
+            <div class="expand-bg"> <span class="expand html2"> &nbsp; </span> </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span5">
+            <h3>HTML <span>85%</span></h3>
+            <div class="expand-bg"> <span class="expand html"> &nbsp; </span> </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span5">
+            <h3>CSS <span>90%</span></h3>
+            <div class="expand-bg"> <span class="expand css"> &nbsp; </span> </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span5">
+            <h3>Node JS <span>60%</span></h3>
+            <div class="expand-bg"> <span class="expand node"> &nbsp; </span> </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </section>
+  <section id="projects" class="content">
     <aside class="half-section text-section">
         <ul class="project-list">
           <li>
@@ -108,20 +151,23 @@
           </li>
         </ul>
     </aside>
+    <aside class="half-section title-section">
+      <h2>Experiencia en el campo</h2>
+    </aside>
   </section>
   <section id="contact" class="content">
+    <aside class="half-section title-section">
+      <h2>Envíame un mensaje y charlemos!</h2>
+    </aside>
     <aside class="half-section text-section">
       <form action="">
         <label for="name">Nombre</label>
         <input class="input-field" type="text" name="name" id="name">
         <label for="email">Email</label>
-        <input class="input-field type="email" name="email" id="email">
+        <input class="input-field" type="email" name="email" id="email">
         <label for="message">Mensaje</label>
         <textarea class="input-field" name="message" id="message" cols="30" rows="10"></textarea>
         <input class="btn-send-message" type="submit" value="Enviar">
-    </aside>
-    <aside class="half-section title-section">
-      <h2>Envíame un mensaje y charlemos!</h2>
     </aside>
   </section>
 
@@ -137,7 +183,7 @@
     </div>
       <div class="footer-section-container">
         <p>
-          &copy; 2022 - <a class="footer-link" href="https://www.linkedin.com">Nombre y Apellido</a>
+          &copy; 2022 - <a class="footer-link" href="https://www.linkedin.com/in/mariano-maximiliano-diaz-514b16167">Mariano Maximiliano Diaz</a>
         </p>
       </div>
   </footer>
