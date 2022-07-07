@@ -152,58 +152,66 @@ h1 {
 
 /**** Mi habilidad ****/
 .skills .span3 {
-	width:235px;
-	overflow: hidden;
+  width: 235px;
+  overflow: hidden;
 }
 
 .expand-bg {
-	background: none repeat scroll 0 0 #EAEDF2;
-	border-radius:16px;
-	height: 16px;
-	margin-bottom: 15px;
-	position: relative;
-	padding: 0 2px;
+  background: none repeat scroll 0 0 #EAEDF2;
+  border-radius: 16px;
+  height: 16px;
+  margin-bottom: 15px;
+  position: relative;
+  padding: 0 2px;
 }
+
 .expand {
-	border-radius: 10px;
-	height: 4px;
-	margin: 2px 0;
-	padding: 4px 0 4px 5px;
-	position: absolute;
+  border-radius: 10px;
+  height: 4px;
+  margin: 2px 0;
+  padding: 4px 0 4px 5px;
+  position: absolute;
 }
+
 .skills .span5 h3 {
-	font-size: 18.5px;
-	line-height: 15px;
-	font-weight:normal;
-	text-transform:uppercase;
+  font-size: 18.5px;
+  line-height: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
 }
+
 .skills .span5 h3 span {
-	float:right;
+  float: right;
 }
 
 .ps2 {
-	width:75%;
-	background:#30a5dc;
+  width: 75%;
+  background: #30a5dc;
 }
+
 .ai2 {
-	width:80%;
-	background:#ee742b;
+  width: 80%;
+  background: #ee742b;
 }
+
 .html2 {
-	width:75%;
-	background:#f04949;
+  width: 75%;
+  background: #f04949;
 }
+
 .html {
-	width:85%;
-	background:#39d084;
+  width: 85%;
+  background: #39d084;
 }
+
 .css {
-	width:90%;
-	background:#9526d4;
+  width: 90%;
+  background: #9526d4;
 }
+
 .node {
-	width:65%;
-	background:#e6a822;
+  width: 65%;
+  background: #e6a822;
 }
 
 aside {
@@ -269,5 +277,50 @@ footer {
   text-decoration: none;
   color: var(--accent-color);
   font-size: 18px;
+}
+
+/*Seccion Tecnologias*/
+
+.tech-icons-container {
+  background-color: rgba(255, 255, 255, 0.801);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.tech-icon-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 60px;
+}
+
+.tech-icon-list-end {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.tech-icon-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+.tech-icon-item-end {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+span {
+  margin-top: 5px;
+  color: var(--primary-color-dark);
 }
 
